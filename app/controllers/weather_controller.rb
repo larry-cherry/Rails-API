@@ -11,7 +11,6 @@ class WeatherController < ApplicationController
     end
       WeatherRequest.create(ipaddress: ip, lat: params["lat"], lon: params["lon"])
       uri = URI("https://api.darksky.net/forecast/5b30c9a8f2a1996939817d496865c2eb/#{params['lat']},#{params['lon']}")
-      binding.pry
       @json = Net::HTTP.get(uri)
   
       render json: @json
