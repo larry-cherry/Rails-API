@@ -1,24 +1,8 @@
-# README
+# Larry Rails API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+__**Goal**__
 
-Things you may want to cover:
+* The purpose of the project is to provide projects that do not have a backend a means of performing tasks or operations that are best suited for the backend. I will use this API to protect my API keys, track usage, or correct potentail errors before a response is sent. 
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+__**Projects Using This API**__
+* [Weather App](https://github.com/larry-cherry/WeatherApp)
