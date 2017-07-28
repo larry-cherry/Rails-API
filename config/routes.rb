@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'resume/json'
+
   get 'weather/index'
 
   get 'welcome/index'
